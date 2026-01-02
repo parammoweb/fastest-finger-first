@@ -1,0 +1,5 @@
+{
+  "name": "Fastest Finger First",
+  "description": "A real-time classroom quiz system where students compete to answer correctly and quickly. Features grade-specific AI-generated questions and instant leaderboards.",
+  "requestFramePermissions": []
+}
