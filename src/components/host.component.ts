@@ -281,7 +281,7 @@ export class HostComponent {
         }
       });
       
-      const jsonText = response.text();
+      const jsonText = response.text; // Fixed: using property instead of function call
       if (!jsonText) throw new Error('Empty response');
 
       const data = JSON.parse(jsonText);
